@@ -289,15 +289,31 @@ aside h2{
 }
 
 
+.Capsulas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
 
+.imagem-batman {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
 
+.imagem-batman img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  margin-top: 150px;
+}
 
-
-
-
-
-
-
+.Final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 footer {
   background-color: rgba(0, 0, 0, 0.351);
